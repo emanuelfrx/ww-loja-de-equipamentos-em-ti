@@ -23,3 +23,5 @@ RF009 Manter o usuário autenticado enquanto ele navega pela aplicação
 RF011 Alterar quantidade de um produto ao carrinho de compras
 
 RF012 Remover um produto do carrinho de compras
+
+gkjdflggds
