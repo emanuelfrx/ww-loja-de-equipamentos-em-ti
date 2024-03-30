@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  h1 Login
+
+  if error
+    p.error= error
+
+  form.pure-form.pure-form-stacked(action="/login", method="post")
+    fieldset
+      label(for="email") Email:
+      input(type="email", id="email", name="email", required)
+
+      label(for="senha") Senha:
+      input(type="password", id="senha", name="senha", required)
+
+      button(type="submit") Entrar
+block ver
+  footer.rodape
+    div 
+      h1 Desenvolvido por 	&copy; Emanuel Freitas
+      h1 2024
