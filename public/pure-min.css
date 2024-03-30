@@ -19,7 +19,7 @@ h1{
     background-color: rgba(184, 139, 197, 0.514);
     border: none;
     margin-bottom: 5%;
-    width: 10%;
+    width: 10vw;
     padding: 15px;
     border-radius:15px;
     font-size:larger;
@@ -32,6 +32,7 @@ h1{
     font-family:Arial, Helvetica, sans-serif;
     color: white;
     font-weight: bold;
+    padding: 2%;
 }
 form{
     background: rgba(0, 0, 0, 0.39);
@@ -41,6 +42,7 @@ form{
     align-items: center;
     justify-content: center;
 }
+
  button{
     margin: 5%;
 }
@@ -54,8 +56,9 @@ footer{
 .rodape h1{
     font-size:12px;
     color: white;
-    padding: 2%;
+    padding: 1%;
 }
+
 @media screen and (max-width: 700px){
     .container{
         width: 100%;

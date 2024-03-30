@@ -6,15 +6,13 @@ block content
   if error
     p.error= error
 
-  form.pure-form.pure-form-stacked(action="/login", method="post")
-    fieldset
-      label(for="email") Email:
-      input(type="email", id="email", name="email", required)
+  form.pure-form(action="/login", method="post")
+    fieldset.pure-group
+      input(type="email", id="email", name="email", placeholder="Email" required)
 
-      label(for="senha") Senha:
-      input(type="password", id="senha", name="senha", required)
+      input(type="password", id="senha", name="senha", placeholder="Senha" required)
 
-      button(type="submit") Entrar
+      button.pure-button.pure-input-1-2.pure-button-primary(type="submit") Entrar
 block ver
   footer.rodape
     div 
